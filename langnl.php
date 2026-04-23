@@ -10,11 +10,19 @@ return [
     "title" => "Contact",
     "subtitle" => "Wij staan klaar om u te helpen",
 
-    "contactgegevens" => "Contactgegevens",
+    "Neem Contact met ons op" => "Neem Contact met ons op",
     "adres" => "Adres",
     "telefoon" => "Telefoon",
     "email" => "E-mail",
 
     "bel_ons" => "Bel ons",
-    "route" => "Route plannen"
+    "route" => "Route plannen",
+    "Openings Tijden:" => "Openings Tijden:",
+    "Maandag" => "Maandag",
+    "Dinsdag" => "Dinsdag",
+    "Woensdag" => "Woensdag",
+    "Donderdag" => "Donderdag",
+    "Vrijdag" => "Vrijdag",
+    "Zaterdag" => "Zaterdag",
+    "Zondag" => "Zondag"
 ];
