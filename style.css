@@ -1,0 +1,342 @@
+* {
+   
+     box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.page-content {
+  flex: 1;
+  max-width: 1200px;   /* controls how wide your site can be */
+  margin: 0 auto;      /* centers it */
+  width: 100%;
+}
+
+.line{
+    background-color: #083d73;
+    width: 100%;
+    height: 5px;
+}
+
+.line2{
+    background-color: #f4FDFF;
+    width: 100%;
+    height: 5px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 350px;
+    padding: 0; 
+    display: block;  
+    flex-direction: column; /* navbar top, text below */
+
+    background-image: url("your-image.png");
+    background-size: cover;      /* makes image fill the header */
+    background-position: center; /* keeps it centered */
+    background-repeat: no-repeat;
+}
+.text {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+h1{
+color: #0a74da;
+}
+
+h2{
+color: white;
+}
+.btn-primary {
+    background-color: #0a74da;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.btn-primary a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.2s ease;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+    transform: translateY(-2px);
+}
+
+nav ul li a.active {
+    
+}
+
+.lang-switch {
+    color: white;
+}
+
+.lang-switch a {
+    color: white;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+ul { list-style: none; padding: 0;
+     /* optional: removes left indentation */ margin: 0;
+      /* optional: removes default spacing */ 
+    }
+
+.navbar-bg {
+    width: 50%;
+    height: 25px;
+    background-color: #083d73; /* or a different color */
+     margin: 0 auto;   /* <-- this centers it */
+    
+}
+
+.navbar {
+     max-width: none;
+    width: auto;
+    margin: 0;
+    padding: 0 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+
+.right{
+display: flex;
+flex-direction: row;
+gap: 40px;
+
+}
+
+.right ul { display: flex; gap: 40px;
+list-style: none; 
+margin: 0; padding: 0; 
+}
+
+.folder{
+    padding: 0 100px;
+}
+
+.main{
+    background-color: brown;
+    height: 500px; 
+    width: 100%;
+    
+}
+
+.main2{
+max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.box1{
+    background-color: rgb(57, 57, 65);
+    height: 250px;
+    width: 50%;
+}
+
+.box2{
+    background-color: rgb(12, 201, 144);
+    height: 250px;
+    width: 50%;
+}
+
+.box3{
+    background-color: rgb(12, 201, 144);
+    height: 150px;
+    width: 100%;
+}
+.info-groep{
+    background-color: rgb(201, 198, 12);
+    height: 150px;
+    width: 100%;
+}
+
+.main-top{
+    display: flex;
+    align-items: flex-start;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    gap: 20px;
+}
+
+.card {
+    width: 100%;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.esports{
+    display: flex;
+}
+
+.boxe{
+    background-color: rgb(42, 50, 165);
+    height: 150px;
+    width: 50%;
+}
+.boxp{
+    background-color: rgb(12, 201, 144);
+    height: 150px;
+    width: 50%;
+}
+
+.footer1 {
+    width: 100%;
+    background: #C0C0C0;
+    color: white;
+}
+
+.lang-switch {
+    color: white;
+}
+
+.lang-switch a {
+    color: white;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+/* Hero Section */
+.hero {
+    background: url('background.jpg') center/cover no-repeat;
+    height: 250px;
+    position: relative;
+}
+
+.hero-overlay {
+    background: #938BA1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+/* Contact Section */
+.contact-section {
+    display: flex;
+    flex-direction: row; /* naast elkaar */
+    
+}
+
+.contact-card {
+    background: rgb(255, 255, 255);
+    width: 50%;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+.contact-card h2 {
+    margin-bottom: 15px;
+    color: #000000;
+}
+
+.contact-card p {
+    margin: 8px 0;
+    font-size: 16px;
+}
+
+.contact-card a {
+    color: #000000;
+    text-decoration: none;
+}
+
+/* Buttons */
+.buttons {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.btn {
+    padding: 10px 15px;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn.call {
+    background: #28a745;
+}
+
+.btn.route {
+    background: #0a74da;
+}
+
+/* Map */
+.map-container {
+    width: 50%;
+    flex: 1;
+    background: rgb(255, 255, 255); 
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    .hero {
+        height: 180px;
+    }
+
+    .buttons {
+        flex-direction: column;
+    }
+}
+
+.section-bg {
+    width: 100%;
+    background-color: #f2f2f2; /* your background color */
+    padding: 40px 0; /* vertical spacing */
+}
