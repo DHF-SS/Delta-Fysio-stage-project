@@ -1,5 +1,6 @@
 <?php
 return [
+
     "home" => "Home",
     "tarieven" => "Prices",
     "contact" => "Contact",
@@ -10,19 +11,20 @@ return [
     "title" => "Contact",
     "subtitle" => "We are here to help you",
 
-    "Neem Contact met ons op" => "Contact details",
+    "contactgegevens" => "Contact details",
     "adres" => "Address",
     "telefoon" => "Phone",
     "email" => "Email",
 
     "bel_ons" => "Call us",
     "route" => "Get directions",
-    "Openings Tijden:" => "Openings Tijden:",
-    "Maandag" => "Monday",
-    "Dinsdag" => "Tuesday",
-    "Woensdag" => "Wednessdag",
-    "Donderdag" => "Thursday",
-    "Vrijdag" => "Friday",
-    "Zaterdag" => "Saturday",
-    "Zondag" => "Sunday"
+
+    "tarieven_title" => "Prices",
+    "tarieven_subtitle" => "Our treatments and prices",
+
+    "over_title" => "About Us",
+    "over_subtitle" => "Get to know our team",
+
+    "sponsor_title" => "Sponsors",
+    "sponsor_subtitle" => "Our partners and sponsors"
 ];
